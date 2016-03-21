@@ -1,0 +1,64 @@
+#promo {
+    height:700px;
+    background: no-repeat center/cover url("Footer.png");
+}
+
+.promo_header {
+    height:150px;
+    line-height: 150px;
+}
+
+.promo_logo {
+    float:left;
+    font-family: MontserratBold;
+    font-size: 20px;/* 20px;*/
+}
+
+.promo_buttons {
+    float:right;
+    font-family: MontserratBold;
+    font-size: 14px;
+}
+
+.promo_logo >li,
+.promo_buttons>li
+ {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+.promo_logo a,
+.promo_buttons a ,
+.promo_title a {
+    text-decoration:  none;
+    color: #fff;
+    font-family: MontserratBold;
+}
+
+.promo_buttons a {
+    padding:  10px 18px;
+    border-radius: 20px;
+}
+.promo_buttons .promo_button-SignIn>a  {
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+    .promo_button-login {
+        margin-right:10px; 
+}
+
+.promo_title {
+    list-style-type: none;
+    display: block;
+    line-height: normal;
+}
+
+.promo_title-1>li{
+    font-size: 34px;
+    padding:  250px 18px;
+    line-height: normal;
+     
+ }
